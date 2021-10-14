@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PingOceanTestTask</string>
+    <string name="invalid_email">Not a valid email</string>
+    <string name="invalid_password">Password must contain at least 8 characters</string>
+</resources>

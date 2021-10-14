@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.profile.ProfileActivity">
+
+    <TextView
+        android:id="@+id/user_id_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="id"/>
+
+    <TextView
+        android:id="@+id/user_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="name"/>
+
+    <TextView
+        android:id="@+id/user_email_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="email"/>
+
+    <TextView
+        android:id="@+id/user_phone_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="phone"/>
+
+    <TextView
+        android:id="@+id/user_avatar_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="avatar"/>
+
+    <TextView
+        android:id="@+id/user_position_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="position"/>
+
+    <TextView
+        android:id="@+id/user_company_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="company_name"/>
+
+    <TextView
+        android:id="@+id/user_timezone_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="timezone"/>
+
+    <ProgressBar
+        android:id="@+id/user_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/user_logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_gravity="bottom"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
